@@ -4,7 +4,8 @@ import Form from 'react-bootstrap/Form';
 
 function Login() {
     return(
-        <div className='box'>
+        <div>
+          <div className='box'>
             <div className='formulario_login'>
                <div className='login_text'>Login</div> 
             <Form>
@@ -20,7 +21,9 @@ function Login() {
                 </Button>
             </Form>
             </div>
+          </div>  
         </div>
+
     )
 
 }

@@ -1,11 +1,11 @@
 import './style.css';
-import Header from './screens/Login';
+import Login from './screens/Login';
 
 
 function App() {
   return (
     <div className="App">
-      <Header />
+      <Login />
     </div>
   );
 }
