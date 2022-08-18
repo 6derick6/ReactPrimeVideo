@@ -13,8 +13,7 @@
     font-family:  'Signika', sans-serif;
     font-weight: 600;
     margin-left: 30%;
-    margin-bottom: 15%;
-    margin-top: 5%;
+    margin-bottom: 10%;
 }
 
 .form_login {
@@ -23,7 +22,6 @@
 }
 
 .btn_acessar {
-    margin-top: 6%;
     width: 100%;
     background-color: #476d8d !important;
 }
@@ -53,4 +51,10 @@
     width: 100%;
     display: flex;
     justify-content: center;
+}
+
+.esqueceu_senha{
+    font-size: 12px;
+    color: #212529;
+    text-decoration: none;
 }

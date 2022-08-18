@@ -9,7 +9,7 @@ function Cadastro() {
         <div className='back'>
           <div className='caixa'>
             <div className='formulario_login'>
-               <div className='cadastro_text'>Cadastro</div> 
+               <div className='cadastro_text'>Registration</div> 
                <Form>
 
                     <Row className="mb-3">
@@ -51,6 +51,8 @@ function Cadastro() {
                         <Form.Label>State</Form.Label>
                         <Form.Select defaultValue="Choose...">
                             <option>Choose...</option>
+                            <option>Paraná</option>
+                            <option>Santa Catarina</option>
                             <option>Rio Grande do Sul</option>
                         </Form.Select>
                         </Form.Group>
@@ -62,11 +64,18 @@ function Cadastro() {
                     </Row>
 
                     <Button className='btn_concluir' variant="primary" type="submit">
-                        Concluir
+                        Conclude
                     </Button>
-            </Form>
+            </Form> 
             </div>
-          </div>  
+          </div> 
+
+          <div className='voltar'>
+                    <Button className='btn_voltar' variant="primary" type="submit">
+                            Cancel
+                    </Button>
+         </div>
+
         </div>
 
     )

@@ -17,8 +17,16 @@ function Login({setActiveScreen}) {
                 <Form.Group className="mb-3" controlId="formBasicPassword">
                     <Form.Control className='form_login' type="password" placeholder="Password" />
                 </Form.Group>
+                <Form.Group className="mb-3" id="formGridCheckbox">
+
+                <Form.Group className="mb-3" controlId="formBasicEsqueceu">
+                    <a className='esqueceu_senha' href="#">Forgot password?</a>
+                </Form.Group>
+
+                    <Form.Check type="checkbox" label="Remember Me" />
+                </Form.Group>
                 <Button className='btn_acessar' variant="primary" type="submit">
-                    Acessar
+                        Access
                 </Button>
             </Form>
             </div>
@@ -26,7 +34,7 @@ function Login({setActiveScreen}) {
 
           <div className='cadastro'>
                     <Button onClick={() => setActiveScreen('Cadastro')} className='btn_cadastro' variant="primary" type="submit">
-                            Cadastre-se
+                            Register
                     </Button>
          </div>
 
