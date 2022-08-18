@@ -1,10 +1,11 @@
 import './style.css';
+import Cadastro from '../Cadastro';
 import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
-function Login() {
+function Login({setActiveScreen}) {
     return(
-        <div>
+        <div className='back'>
           <div className='box'>
             <div className='formulario_login'>
                <div className='login_text'>Login</div> 
@@ -22,6 +23,13 @@ function Login() {
             </Form>
             </div>
           </div>  
+
+          <div className='cadastro'>
+                    <Button onClick={() => setActiveScreen('Cadastro')} className='btn_cadastro' variant="primary" type="submit">
+                            Cadastre-se
+                    </Button>
+         </div>
+
         </div>
 
     )

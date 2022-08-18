@@ -1,0 +1,25 @@
+.caixa {
+    width: 400px;
+    height: 610px;
+    background-color: white;
+    padding: 30px;
+    border-radius: 20px;
+    margin: 0 auto;
+    margin-top: 5%;
+}
+
+.cadastro_text {
+    font-size: 50px;
+    font-family:  'Signika', sans-serif;
+    font-weight: 600;
+    margin-left: 22%;
+    margin-bottom: 15%;
+    margin-top: 5%;
+}
+
+.btn_concluir {
+    margin-top: 6%;
+    width: 100%;
+    background-color: #476d8d !important;
+
+}

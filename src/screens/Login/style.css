@@ -5,6 +5,7 @@
     padding: 30px;
     border-radius: 20px;
     margin: 0 auto;
+    margin-top: 5%;
 }
 
 .login_text {
@@ -25,4 +26,31 @@
     margin-top: 6%;
     width: 100%;
     background-color: #476d8d !important;
+}
+
+.back {
+    width: 100%;
+    height: 100vh;
+    background-color: #0f171e;
+    position: absolute;
+}
+
+.btn_cadastro {
+    background-color: white !important;
+    margin: 0 auto !important;
+    margin-top: 2% !important;
+    width: 400px;
+    color: #212529 !important;
+    font-family:  'Signika', sans-serif !important;
+    font-weight: 600 !important;
+    border-radius: 20px !important;
+    height: 60px;
+    border-color: white !important;
+    font-size: 24px !important;
+}
+
+.cadastro {
+    width: 100%;
+    display: flex;
+    justify-content: center;
 }
