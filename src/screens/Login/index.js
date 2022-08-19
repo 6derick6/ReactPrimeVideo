@@ -6,6 +6,7 @@ import Form from 'react-bootstrap/Form';
 function Login({setActiveScreen}) {
     return(
         <div className='back'>
+        <div className='responsive'>
           <div className='box'>
             <div className='formulario_login'>
                <div className='login_text'>Login</div> 
@@ -38,6 +39,7 @@ function Login({setActiveScreen}) {
                     </Button>
          </div>
 
+        </div>
         </div>
 
     )
